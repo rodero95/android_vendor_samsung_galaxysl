@@ -114,14 +114,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxysl/proprietary/sensors/bin/orientationd:system/bin/orientationd
 
-# wifi
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_cu:system/bin/tiap_cu \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_loader:system/bin/tiap_loader \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_cu:system/bin/tiwlan_cu \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_loader:system/bin/tiwlan_loader \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_plts:system/bin/tiwlan_plts \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/wpa_supplicant:system/bin/wpa_supplicant
+# wl12xx
+ PRODUCT_COPY_FILES += \
+     vendor/samsung/galaxysl/proprietary/wifi/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+     vendor/samsung/galaxysl/proprietary/wifi/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+     vendor/samsung/galaxysl/proprietary/wifi/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+	 vendor/samsung/galaxysl/proprietary/wifi/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
+	 vendor/samsung/galaxysl/proprietary/wifi/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
 
 # bluetooth
 PRODUCT_COPY_FILES += \
