@@ -21,7 +21,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/samsung/galaxysl/overlay
 PRODUCT_COPY_FILES := \
     vendor/samsung/galaxysl/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/galaxysl/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysl/proprietary/modem.bin:modem.bin
+    vendor/samsung/galaxysl/proprietary/ril/modem/modem.bin:modem.bin
 
 # Proprietary Blobs
 PRODUCT_COPY_FILES += \
