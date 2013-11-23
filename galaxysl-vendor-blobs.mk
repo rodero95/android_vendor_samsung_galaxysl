@@ -95,12 +95,6 @@ PRODUCT_COPY_FILES += \
  vendor/samsung/galaxysl/proprietary/system/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
  vendor/samsung/galaxysl/proprietary/system/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
  vendor/samsung/galaxysl/proprietary/system/lib/librotation.so:system/lib/librotation.so \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin:system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
- vendor/samsung/galaxysl/proprietary/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
  vendor/samsung/galaxysl/proprietary/system/bin/rild:system/bin/rild \
  vendor/samsung/galaxysl/proprietary/system/lib/libril.so:system/lib/libril.so \
  vendor/samsung/galaxysl/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
